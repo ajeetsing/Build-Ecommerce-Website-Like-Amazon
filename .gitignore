@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@ajeetsing 
-ajeetsing
-/
-Campkart
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Campkart/.gitignore
-@ajeetsing
-ajeetsing make it better
-Latest commit a444db0 on Aug 29, 2020
- History
- 1 contributor
-36 lines (30 sloc)  495 Bytes
-
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 dist
@@ -45,6 +15,7 @@ uploads/*.png
 
 # production
 /build
+build
 
 # misc
 .DS_Store
