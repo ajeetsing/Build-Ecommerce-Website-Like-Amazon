@@ -73,5 +73,11 @@
     3. create store provider
     4. implement add to cart button click handler
 11. Complete Add To Cart
+
     1. check exist item in the cart
     2. check count in stock in backend
+
+12. Create Cart Screen
+    1. create 2 columns
+    2. display items list
+    3. create action column
