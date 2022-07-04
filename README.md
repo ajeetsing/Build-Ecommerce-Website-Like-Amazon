@@ -122,6 +122,29 @@
 
 16(2). Complete Signin Screen
 
-    1. handle submit action
-    2. save token in store and local storage
-    3. show user name in header
+1. handle submit action
+2. save token in store and local storage
+3. show user name in header
+
+17 . Create Shipping Screen
+
+1.  create form inputs
+2.  handle save shipping address
+3.  add checkout wizard bar
+
+17(1). Create Sign Up Screen
+
+1.  create input forms
+2.  handle submit
+3.  create backend api
+
+17(2). Implement Select Payment Method Screen
+
+1.  create input forms
+2.  handle submit
+
+17(3). Create Place Order Screen
+
+1.  show cart items, payment and address
+2.  handle place order action
+3.  create order create api
