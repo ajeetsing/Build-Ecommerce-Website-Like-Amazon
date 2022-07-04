@@ -90,6 +90,13 @@
     3. click handler for checkout
 
 14. Create Signin Screen
+
     1. create sign in form
     2. add email and password
     3. add signin button
+
+15. Connect To MongoDB Database
+    1. create atlas monogodb database
+    2. install local mongodb database
+    3. npm install mongoose
+    4. connect to mongodb database
