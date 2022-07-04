@@ -1,4 +1,20 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+  users: [
+    {
+      name: 'ajeet',
+      email: 'ajeet@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'sujeet',
+      email: 'sujeet@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
       // _id: '1',
@@ -33,7 +49,7 @@ const data = {
       category: 'Shirts',
       image: '/images/p2.jpg',
       price: 2220,
-      countInStock: 0,
+      countInStock: 5,
       brand: 'Lacoste',
       rating: 4.8,
       numReviews: 17,
