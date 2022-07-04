@@ -146,5 +146,9 @@
 17(3). Create Place Order Screen
 
 1.  show cart items, payment and address
-2.  handle place order action
-3.  create order create api
+2.  calculate order summary
+
+17(4). Implement Place Order Action
+
+1.  handle place order action
+2.  create order create api
