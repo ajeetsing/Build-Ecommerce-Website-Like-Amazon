@@ -171,6 +171,13 @@
 13. create pay order api in backend
 
 14. Display Order History
+
     1. create order screen
     2. create order history api
     3. use api in the frontend
+
+15. Create Profile Screen
+    1. get user info from context
+    2. show user information
+    3. create user update api
+    4. update user info
