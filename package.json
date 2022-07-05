@@ -5,9 +5,8 @@
   "description": "e-com",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon --watch backend --exec babel-node backend/server.js",
-    "build": "del -rf dist && babel backend -d dist",
-    "heroku-postbuild": "npm run build && cd frontend && npm install && npm run build",
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
     "server": "npm start",
     "client": "cd frontend && npm  start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
