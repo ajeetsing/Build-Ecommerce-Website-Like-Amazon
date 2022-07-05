@@ -157,27 +157,21 @@
 
 1. create backend api for order/:id
 2. fetch order api in frontend
-3. show order information in 2 cloumns
+   3 show order information in 2 cloumns
 
-4. Pay Order By PayPal
-5. generate paypal client id
-6. create api to return client id
-7. install react-paypal-js
-8. use PayPalScriptProvider in index.js
-9. use usePayPalScriptReducer in Order Screen
-10. implement loadPaypalScript function
-11. render paypal button
-12. implement onApprove payment function
-13. create pay order api in backend
+#18. Pay Order By PayPal 4. generate paypal client id 5. create api to return client id 6. install react-paypal-js 7. use PayPalScriptProvider in index.js 8. use usePayPalScriptReducer in Order Screen 9. implement loadPaypalScript function 10. render paypal button 11. implement onApprove payment function 13. create pay order api in backend
 
-14. Display Order History
+#19. Display Order History
 
     1. create order screen
     2. create order history api
     3. use api in the frontend
 
-15. Create Profile Screen
+#20. Create Profile Screen
+
     1. get user info from context
     2. show user information
     3. create user update api
     4. update user info
+
+#21. Publish To Heroku 1. create and config node project 2. serve build folder in frontend folder 3. Create heroku account 4. connect it to github 5. Create mongodb atlas database 6. Set database connection in heroku env variables 7. Commit and push
