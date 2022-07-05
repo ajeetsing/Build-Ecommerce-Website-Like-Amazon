@@ -146,5 +146,31 @@
 17(3). Create Place Order Screen
 
 1.  show cart items, payment and address
-2.  handle place order action
-3.  create order create api
+2.  calculate order summary
+
+17(4). Implement Place Order Action
+
+1.  handle place order action
+2.  create order create api
+
+17(4). Create Order Screen
+
+1. create backend api for order/:id
+2. fetch order api in frontend
+3. show order information in 2 cloumns
+
+4. Pay Order By PayPal
+5. generate paypal client id
+6. create api to return client id
+7. install react-paypal-js
+8. use PayPalScriptProvider in index.js
+9. use usePayPalScriptReducer in Order Screen
+10. implement loadPaypalScript function
+11. render paypal button
+12. implement onApprove payment function
+13. create pay order api in backend
+
+14. Display Order History
+    1. create order screen
+    2. create order history api
+    3. use api in the frontend
