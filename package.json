@@ -5,8 +5,10 @@
   "description": "e-com",
   "main": "server.js",
   "scripts": {
+
     "build": "cd backend && npm install  && cd ../frontend && npm install ",
     "start": "node backend/server.js",
+
     "server": "npm start",
     "client": "cd frontend && npm  start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
