@@ -195,5 +195,97 @@
     7. Commit and push
 
 22. Add Sidebar and Search Box
+
     1. add sidebar
     2. add search box
+
+23. Create Search Screen
+
+    1. show filters
+    2. create api for searching products
+    3. display results
+
+24. Create Admin Menu
+    1. define protected route component
+    2. define admin route component
+    3. add menu for admin in header
+
+24(1). Create Dashboard Screen
+
+1.  create dashboard ui
+2.  implement backend api
+3.  connect ui to backend
+
+24(2). manage product with product list screen in tableand pagination
+
+1.  create products list ui
+2.  implement backend api
+3.  fetch data
+
+24(3). Create Product
+
+1.  create products button
+2.  implement backend api
+3.  handle on click
+
+24(4). Create Edit Product screen
+
+1.  create edit button
+2.  create edit product ui
+3.  dispaly product info in the input boxes
+
+24(5). Implement Update Product
+
+1.  create edit product backend api
+2.  handle update click
+
+24(6). Upload Product Image
+
+1. create cloudinary account
+2. use the api key in env file
+3. handle upload file
+4. implement backend api to upload
+
+24(7). Delete Product
+
+1. show delete button
+2. implement backend api
+3. handle on click
+
+24(8). List Orders
+
+1. create order list screen
+2. implement backen api
+3. fetch and display orders
+
+24(9). Deliver Order
+
+1. add deliver button
+2. handle click action
+3. implement backen api for deliver
+
+24(10). Delete Order
+
+1. add delete button
+2. handle click action
+3. implement backen api for delete
+
+24(11). List Users
+
+1. create user list screen
+2. implement backen api
+3. fetch and display users
+
+24(12). Edit User
+
+1. create edit button
+2. create edit product ui
+3. dispaly product info in the input boxes
+4. implement backend api
+5. handle edit click
+
+24(13). Delete User
+
+1. add delete button
+2. handle click action
+3. implement backen api for delete
