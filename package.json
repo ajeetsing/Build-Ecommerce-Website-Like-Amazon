@@ -6,11 +6,7 @@
   "main": "server.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install ",
-<<<<<<< HEAD
     "start": "node backend/server.js",
-=======
-    "start": "nodemon backend/server.js",
->>>>>>> 24-admin-area
     "server": "npm start",
     "client": "cd frontend && npm  start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
