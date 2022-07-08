@@ -263,3 +263,9 @@
 1. add deliver button
 2. handle click action
 3. implement backen api for deliver
+
+24(10). Delete Order
+
+1. add delete button
+2. handle click action
+3. implement backen api for delete
