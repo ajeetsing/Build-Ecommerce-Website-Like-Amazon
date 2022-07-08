@@ -216,4 +216,20 @@
 2.  implement backend api
 3.  connect ui to backend
 
-24(2). Manage Products 1. create products list ui 2. implement backend api 3. fetch data
+24(2). manage product with product list screen in tableand pagination
+
+1.  create products list ui
+2.  implement backend api
+3.  fetch data
+
+24(3). Create Product
+
+1.  create products button
+2.  implement backend api
+3.  handle on click
+
+24(4). Create Edit Product
+
+1.  create edit button
+2.  create edit product ui
+3.  dispaly product info in the input boxes
