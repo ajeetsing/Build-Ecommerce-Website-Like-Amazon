@@ -1,5 +1,77 @@
 # MERN AMAZONA
 
+![amazona](/frontend/public/images/amazona.jpg)
+
+# React E-Commerce site
+
+Welcome to my React e-commerce website exactly like amazon.
+
+## Demo Website
+
+- 👉 Heroku : [https://amazona--mern-app.herokuapp.com/](https://amazona--mern-app.herokuapp.com/)
+
+## I Used
+
+- HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
+- React: Components, Props, Events, Hooks, Router, Axios
+- Context API: Store, Reducers, Actions
+- Node & Express: Web API, Body Parser, File Upload, JWT
+- MongoDB: Mongoose, Aggregation
+- Development: ESLint, Babel, Git, Github,
+- Deployment: Heroku
+- Watch React & Node Tutorial
+
+## Run Locally
+
+### 1. Clone repo
+
+```
+$ https://github.com/ajeetsing/Build-Ecommerce-Website-Like-Amazon.git
+$ cd Build-Ecommerce-Website-Like-Amazon
+
+```
+
+### 3. Run Backend
+
+```
+$ in root directory
+$ npm install
+$ npm start
+```
+
+### 4. Run Frontend
+
+```
+# open new terminal
+$ cd frontend
+$ npm install
+$ npm start
+```
+
+### 4. Run both
+
+```
+# open new terminal
+$ in root directory
+$ npm run dev
+it will start both backend and frontend
+
+```
+
+### 5. Seed Users and Products
+
+- Run this on chrome: http://localhost:5000/api/seed
+- It returns admin email and password and 6 sample products
+
+### 6. Admin Login
+
+- Run http://localhost:3000/signin
+- Enter admin email and password and click signin
+
+## Support
+
+- Contact Instructor: [Ajeet](mailto:ajeetsinghthakur930@gmail.com)
+
 # Section
 
 1. List Products
@@ -286,6 +358,39 @@
 
 24(13). Delete User
 
-1. add delete button
-2. handle click action
-3. implement backen api for delete
+1.  add delete button
+2.  handle click action
+3.  implement backen api for delete
+
+#25. Choose Address On Google Map
+
+1.  create google map credentials
+2.  update .env file with Google Api Key
+3.  create api to send google api to frontend
+4.  create map screen
+5.  fetch google api
+6.  getUserLocation
+7.  install @react-google-maps/api
+8.  use it in shipping screen
+9.  apply map to the checkout screen
+
+25(1). Email order receipt by mailgun
+
+1. create mailgun account
+2. add and verify your domain to mailgun
+3. install mailgun-js
+4. set api key in env file
+5. change pay order in orderRouter
+6. send email order receipt
+
+25(2). Review Orders
+
+1. create submit review form
+2. handle submit
+3. implement backend api for review
+
+25(3). Upload multiple Images
+
+1. add images to product model
+2. get images in edit screen
+3. show images in product screen
